@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
+
+/*
+selector{
+    propiedad:valor;
+
+
+}*/
+
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+body{
+    background-image: url(../imagenes/pattern-one.webp);
+}
+
+.horizon{
+    background-color: rgb(40, 64, 95);
+    padding: 10px;
+    font-size: larger;
+    font-weight: bold;
+    color: aliceblue;
+}
+
+.img1{
+    width: 900px;
+    height: 500px;
+    display: block;
+    margin: auto;
+
+}
+
+.img2{
+width: 700px;
+height: 400px;
+display: block;
+margin: auto;
+
+
+}
+.img3{
+    width: 520px;
+    height: 330px;
+    display: block;
+    margin: auto;
+}
+
+
+.parrafo{
+    color: rgb(0, 0, 0);
+    font-size: large;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(231, 233, 126);
+    font-style: italic;
+    text-align: center;
+    padding: 10px;
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-top: 30px;
+    border: 10px solid rgb(40, 64, 95)
+    
+
+
+}
+
+
+#parrafo2{
+    color: rgb(0, 0, 0);
+    font-family: 'Yellowtail', cursive;
+    font-style: inherit;
+    border-radius: 50px;
+}
+
+.estilodelistas{
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    border: 2px solid black; 
+}
+
+.estilodelistas li{
+    background-color: gainsboro;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    font-size: large;
+}
+
+header{
+    background-color: rgb(40, 64, 95);
+    padding: 10px;
+    margin-top: 0%;
+}
+
+.lol{
+    background-color: rgb(40, 64, 95);
+    padding: 10px;
+    color: aliceblue;
+}
+
+header h1{
+    font-weight: bold;
+    color: aliceblue;
+    font-size: xx-large;
+
+}
+
+footer{
+    background-color: rgb(40, 64, 95);
+    padding: 40px;
+    margin-bottom: 0%;
+}
+
+
