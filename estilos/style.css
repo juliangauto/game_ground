@@ -24,6 +24,32 @@ body{
     color: aliceblue;
 }
 
+.LOGO{
+    width: 200px;
+    height: 50px;
+}
+
+.blue{
+    background-color: rgb(40, 64, 95);
+}
+
+.box{
+   background-color: rgb(40, 64, 95) ;
+   border-radius: 4px;
+   margin-top: 100px;
+   margin-bottom: 100px;
+   color: white;
+   transition-property: all;
+   transition-duration: 1s;
+   
+   
+
+}
+
+.box2:hover{
+    transform: scale(2);
+}
+
 .img1{
     width: 900px;
     height: 500px;
@@ -37,8 +63,6 @@ width: 700px;
 height: 400px;
 display: block;
 margin: auto;
-
-
 }
 .img3{
     width: 520px;
@@ -46,53 +70,24 @@ margin: auto;
     display: block;
     margin: auto;
 }
-
-
 .parrafo{
-    color: rgb(0, 0, 0);
+    
     font-size: large;
-    font-weight: bold;
-    font-family: 'Times New Roman', Times, serif;
-    background-color: rgb(231, 233, 126);
-    font-style: italic;
+    background-color: rgb(255, 255, 255);
     text-align: center;
     padding: 10px;
     margin-right: 100px;
     margin-left: 100px;
-    margin-top: 30px;
-    border: 10px solid rgb(40, 64, 95)
+    border: 5px solid rgb(40, 64, 95)
     
 
 
 }
-
-
 #parrafo2{
     color: rgb(0, 0, 0);
     font-family: 'Yellowtail', cursive;
     font-style: inherit;
     border-radius: 50px;
-}
-
-.estilodelistas{
-    display: flex;
-    padding: 10px;
-    justify-content: center;
-    border: 2px solid black; 
-}
-
-.estilodelistas li{
-    background-color: gainsboro;
-    width: 100px;
-    margin: 10px;
-    text-align: center;
-    font-size: large;
-}
-
-header{
-    background-color: rgb(40, 64, 95);
-    padding: 10px;
-    margin-top: 0%;
 }
 
 .lol{
@@ -101,12 +96,7 @@ header{
     color: aliceblue;
 }
 
-header h1{
-    font-weight: bold;
-    color: aliceblue;
-    font-size: xx-large;
 
-}
 
 footer{
     background-color: rgb(40, 64, 95);
