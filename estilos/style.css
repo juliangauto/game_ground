@@ -15,7 +15,7 @@ body {
 .titulo {
   display: block;
   margin: auto;
-  width: 600px;
+  width: 500px;
   background-color: white;
   border: 3px solid black;
   border-radius: 50px; }
@@ -82,35 +82,58 @@ body {
   background-color: #28405f; }
 
 .TotalWar {
-  display: block;
-  margin: auto;
-  width: 800px;
-  height: 450px;
-  margin-top: 40px; }
+  border: 5px solid black;
+    border-radius: 5px;
+}
 
 .Elden {
   display: block;
   margin: auto; }
 
 .ImgElden {
-  display: block;
-  margin: auto;
-  width: 800px;
-  height: 450px; }
+  border: 5px solid black;
+  border-radius: 5px;
+}
 
+.KOF{
+  border: 5px solid black;
+  border-radius: 5px;
+}
+
+.TS{
+  border: 5px solid black;
+  border-radius: 5px;
+}
+
+.HFW{
+  border: 5px solid black;
+  border-radius: 5px;
+}
+
+.FF{
+  border: 5px solid black;
+  border-radius: 5px;
+}
+
+.ELEX2{
+  border: 5px solid black;
+  border-radius: 5px;
+}
+
+.TUNIC{
+  border: 5px solid black;
+  border-radius: 5px;
+}
 .parrafo {
-  display: block;
-  margin: auto;
+  
   background-color: white;
   padding: 10px;
-  width: 800px;
   border: 5px solid black; }
 
 .carrusel {
-  display: block;
-  margin: auto;
-  width: 800px;
-  height: 450px; }
+  border: 5px solid black;
+  border-radius: 5px;
+  }
 
 .lol {
   display: block;
@@ -164,5 +187,12 @@ footer {
   display: block;
   margin: auto; }
 
+.arrow{
+  border-radius: 10px;
+  border: 5px solid black;
+  width: 100px;
+}
+
 #pie {
   color: white; }
+
