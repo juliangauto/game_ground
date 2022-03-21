@@ -7,11 +7,14 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="shortcut icon" href="../imagenes/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="../estilos/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@344;700&family=Ubuntu:wght@300&family=Yellowtail&display=swap" rel="stylesheet">
     <title>GameGround</title>
 </head>
 <body>
     
-    <header>
+    <header id="header">
 
         <nav class="navbar navbar-expand-lg navbar-dark blue">
             <div class="container-fluid">
@@ -45,20 +48,19 @@
     </header>
     
     <section class="container">
-        <div class=" text-center mb-5 mt-5">
-           <h1 class="horizon">PREPÁRATE PARA UNA NUEVA AVENTURA</h1>
-        </div> 
+         <div class=" text-center mb-5 mt-5">
+            <h1><b><u>PREPÁRATE PARA UNA NUEVA AVENTURA</u> </b> </h1>
+          </div> 
          
         <div>
-           <p class="horizon text-center">El videojuego se desarrolla seis meses después de Zero Dawn y continua la historia de Aloy, una joven cazadora y guerrera de la tribu Nora que viaja al Oeste Prohibido para investigar una misteriosa y mortífera plaga que amenaza la vida en la Tierra.</p>
-       </div>
-
-       <div>
-        <img class="HorizonPic mt-5 mb-5 img-fluid" src ="../imagenes/HFW2.jpg" alt="horizon">
-       </div>
-
-       <article>
-         <div class="HorizonArt text-center mt-5 mb-5">
+           <h2 class="horizon text-center">El videojuego se desarrolla seis meses después de Zero Dawn y continua la historia de Aloy, una joven cazadora y guerrera de la tribu Nora que viaja al Oeste Prohibido para investigar una misteriosa y mortífera plaga que amenaza la vida en la Tierra.</h2>
+        </div>
+       <div class="row">
+         <div class="col-sm-12 col-md-6 col-lg-6">
+           <img class="HorizonPic mt-5 mb-5 img-fluid " src ="../imagenes/HFW2.jpg" alt="horizon">
+         </div>
+      
+         <div class="HorizonArt text-center mt-5 mb-5 col-sm-12 col-md-6 col-lg-6">
            <p>
             Únete a Aloy mientras desafía el Oeste Prohibido, una frontera majestuosa, aunque peligrosa, en la que se ocultan nuevas y misteriosas amenazas.
 
@@ -70,7 +72,7 @@
            </p>
          </div>
 
-         <div class="HorizonArt2 text-center">
+         <div class="HorizonArt text-center col-sm-12 col-md-6 col-lg-6">
            <p>
             <h4><strong>Características <br></strong></h4>
              <strong>Explora un enorme mundo abierto:</strong>  <br>
@@ -89,8 +91,16 @@
             
             Descubre el secreto del inminente colapso de la Tierra y saca a la luz un capítulo oculto del pasado lejano... que cambiará a Aloy para siempre. <br>
           </div>
+
+          <div class="col-sm-12 col-md-6 col-lg-6">
+            <img class="HorizonPic mt-5 mb-5 img-fluid" src="../imagenes/Horizonforbiddenwest.jpeg" alt="">
+          </div>
+
+          <div class="col-sm-12 col-md-6 col-lg-6">
+            <img class="HorizonPic mt-5 mb-5 img-fluid" src="../imagenes/horizonforbidden.jpg" alt="">
+          </div>
           
-          <div class="HorizonArt3 mb-5 mt-5">
+          <div class="HorizonArt mb-5 mt-5 col-sm-12 col-md-6 col-lg-6">
             <h4>Jugabilidad</h4>
             <ul>
               <li>Los jugadores pueden explorar más y más profundamente en un mapa más grande en comparación con el juego anterior.</li>
@@ -100,28 +110,30 @@
             </ul>
            </p>
           </div>
-       </article>
+          
+          
+        </div>
     </section>
     <!-- Multimedia -->
      <div class="text-center mb-5">
-       <h2>Trailer Oficial |PS5,PS4 </h2>
+        <h2><b><u> Trailer Oficial |PS5,PS4</u></b></h2>
      </div>
-    <div class="text-center mp-5 mb-5">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/UxDWGW7Z67I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-   </div>
+     <div class="text-center mp-5 mb-5">
+       <iframe width="560" height="315" src="https://www.youtube.com/embed/UxDWGW7Z67I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+     </div>
 
     
-    <footer>
-      <div>
-        <ul>
-          <li><a href="">Quiénes somos</a></li>
-          <li>Política de privacidad</li>
-          <li>Condiciones de uso</li>
-          <li>Política de cookies</li>
-          <li>Configuración de cookies</li>
-        </ul>
-       </div>
-    </footer>
+   <footer class="mt-5" >
+    <div id="pie">
+      <ul>
+        <li><a href="">Quiénes somos</a></li>
+        <li>Política de privacidad</li>
+        <li>Condiciones de uso</li>
+        <li>Política de cookies</li>
+        <li>Configuración de cookies</li>
+      </ul>
+    </div>
+</footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
