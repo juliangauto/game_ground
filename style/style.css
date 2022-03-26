@@ -1,128 +1,167 @@
 @import url("https://fonts.googleapis.com/css2?family=Yellowtail&display=swap");
 * {
   padding: 0%;
-  margin: 0%; }
+  margin: 0%;
+}
 
 body {
   background-image: url(../imagenes/pattern-one.webp);
-  font-family: 'Heebo', sans-serif; }
+  font-family: 'Heebo', sans-serif;
+}
 
 .blue {
-  background-color: #28405f; }
+  background-color: #28405f;
+}
 
 footer {
   background-color: #28405f;
   padding: 15px;
-  margin-bottom: 0%; }
+  margin-bottom: 0%;
+}
 
 .form {
   background-color: white;
   border-radius: 25px;
-  border: solid black; }
+  border: solid black;
+}
 
 #pie {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: row;
-  justify-content: center;
-  color: white; }
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: white;
+}
 
 .titulo {
   margin: auto;
   width: 30%;
   background-color: white;
   border: 3px solid black;
-  border-radius: 25px; }
+  border-radius: 25px;
+}
 
 .titulo1:hover {
   color: white;
   background-color: #28405f;
-  transform: scale(2);
+  -webkit-transform: scale(2);
+          transform: scale(2);
+  -webkit-transition-property: all;
   transition-property: all;
-  transition-duration: 1s; }
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+}
 
 .horizonTitulo {
   border: 4px solid black;
   border-radius: 20px;
-  background-color: white; }
+  background-color: white;
+}
 
 .lolh2 {
   background-color: white;
   border: 5px solid black;
-  border-radius: 5px; }
+  border-radius: 5px;
+}
 
 .HorizonPic {
   border: 5px solid black;
-  border-radius: 20px; }
+  border-radius: 20px;
+}
 
 .LOGO {
   width: 200px;
-  height: 50px; }
+  height: 50px;
+}
 
 .TotalWar {
   border: 5px solid black;
-  border-radius: 5px; }
+  border-radius: 5px;
+}
 
 .ImgElden {
   border: 5px solid black;
-  border-radius: 5px; }
+  border-radius: 5px;
+}
 
 .KOF {
   border: 5px solid black;
-  border-radius: 5px; }
+  border-radius: 5px;
+}
 
 .TS {
   border: 5px solid black;
-  border-radius: 5px; }
+  border-radius: 5px;
+}
 
 .HFW {
   border: 5px solid black;
-  border-radius: 5px; }
+  border-radius: 5px;
+}
 
 .FF {
   border: 5px solid black;
-  border-radius: 5px; }
+  border-radius: 5px;
+}
 
 .ELEX2 {
   border: 5px solid black;
-  border-radius: 5px; }
+  border-radius: 5px;
+}
 
 .TUNIC {
   border: 5px solid black;
-  border-radius: 5px; }
+  border-radius: 5px;
+}
 
 .carrusel {
   border: 5px solid black;
-  border-radius: 5px; }
+  border-radius: 5px;
+}
 
 .ImgLol {
   border: 4px solid black;
   border-radius: 20px;
-  background-color: white; }
+  background-color: white;
+}
 
 .ImgMapa {
-  border: 5px solid black; }
+  border: 5px solid black;
+}
 
 .arrow {
   background-color: white;
   border-radius: 10px;
   border: 3px solid black;
-  width: 100px; }
+  width: 100px;
+}
 
 .HorizonArt {
   border: 4px solid black;
   border-radius: 20px;
-  background-color: white; }
+  background-color: white;
+}
 
 .parrafo {
   background-color: white;
   padding: 10px;
-  border: 5px solid black; }
+  border: 5px solid black;
+}
 
 .LolArt {
   border: 3px solid black;
-  background-color: white; }
+  background-color: white;
+}
 
 .art {
   background-color: white;
   padding: 10px;
-  border: 5px solid black; }
+  border: 5px solid black;
+}
+/*# sourceMappingURL=style.css.map */
