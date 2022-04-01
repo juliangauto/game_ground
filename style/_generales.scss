@@ -22,9 +22,34 @@ footer {
   border-radius: 25px;
   border: solid black; 
 }
-#pie{
-  display: flex;
-  flex-direction:row;
-  justify-content: center;
+#pie ul li{
+  margin: 5px;
+  display:inline-block;
   color: white; 
+}
+
+.iconos {
+  display: flex;
+  margin-bottom: 15px;
+  justify-content: center;}
+
+.icon{
+  display: inline-block;
+  text-align: center;
+  margin: 0 5px;
+  width: 50px;
+  height: 50px;
+  
+}
+
+  
+.iconos ul:hover img{
+  filter: blur(2px) ;
+}
+
+
+.iconos ul img:hover {
+  filter:none ;
+  transform: translateY(-3px)scale(1.05);
+  
 }
